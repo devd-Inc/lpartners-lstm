@@ -1,0 +1,105 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data files (선택적으로 주석 해제)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+
+# Model files
+*.pth
+*.pt
+*.pkl
+*.h5
+*.hdf5
+*.onnx
+*.pb
+*.tflite
+
+# Logs and outputs
+*.log
+logs/
+runs/
+tensorboard/
+wandb/
+
+# Visualization outputs
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.svg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Project specific
+# 학습된 모델은 제외하지만, 코드는 포함
+lstm_cashflow_model.pth
+scalers.pkl
+prediction_plot.png
+
+# 예시 데이터는 포함하되, 실제 데이터는 제외 (선택사항)
+# 실제 데이터 파일명을 여기에 추가하세요
+# example_*.csv  # 예시 데이터는 포함
+# *_data.csv     # 실제 데이터는 제외
+
